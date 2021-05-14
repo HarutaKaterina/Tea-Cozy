@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  z-index: 10;
+  background: black;
+  top: 0px;
+}
+
+header #logo {
+  padding: 10px;
+  height: 50px;
+  position: fixed;
+}
+
+header .links {
+  width: 100%;
+  height: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header .links p {
+  margin-right: 20px;
+  color: seashell;
+}
+
+.background-image-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.background-image-box #missionBackground {
+  height: 700px;
+  width: 1200px;
+  padding-top: 70px;
+  margin: 0 40px;
+}
+
+.background-image-box .text-over {
+  height: auto;
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  background: black;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  text-align: center;
+}
+
+.background-image-box .text-over h2 {
+  height: 20px;
+  margin: 5px;
+}
+
+.background-image-box .text-over h4 {
+  height: 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container .teaOfTheMonth {
+  width: 1000px;
+  margin: 0 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.container .teaOfTheMonth .typesOfTea {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.container .teaOfTheMonth h4 {
+  margin-top: 10px;
+}
+
+.container .teaOfTheMonth img {
+  height: 200px;
+  width: 300px;
+  margin-right: 25px;
+}
+
+.locations {
+  padding-top: 80px;
+  height: 500px;
+  width: 1200px;
+  background-image: url(images/img-locations-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+.locations .inline-flex-container .items {
+  background-color: black;
+  width: 300px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 22px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-right: 40px;
+  height: 300px;
+  opacity: 1;
+}
+
+.locations .inline-flex-container .items p {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+/*# sourceMappingURL=style.css.map */
